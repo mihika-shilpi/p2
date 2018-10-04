@@ -4,6 +4,7 @@
 
 ## Outside resources
 http://form.guide/php-form/php-form-action-self.html
+UI Kit form styling
 
 ## 3 Unique inputs
 (1) Text input for Name, 
