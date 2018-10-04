@@ -17,6 +17,7 @@ $jobs = [
     '3D Designer' => '3D Designer',
     'Project Manager' => 'Project Manager',
     'Accountant' => 'Accountant',
+    'Please select' => '',
 ];
 
 # We'll be storing data in the session, so initiate it
@@ -47,7 +48,7 @@ $_SESSION['results'] = [
     'name' => $name,
     'email' => $email,
     'phone' => $phone ?? null,
-    'title' => $title,
+    'title' => $title ?? null,
     'ifwork' => $ifwork,
 ];
 

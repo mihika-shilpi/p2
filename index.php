@@ -6,7 +6,6 @@ require 'logic.php';
 <!DOCTYPE html>
 <html lang='en'>
 
-<html>
 <head>
     <title>Signature Architect</title>
     <meta charset="utf-8">
@@ -21,13 +20,13 @@ require 'logic.php';
 <body>
 <header>
 
-    <span tabindex="0" class="hamburger"><img src="Images/menu.svg" alt="menu"></span>
+    <span tabindex="0" class="hamburger"> <img src="Images/menu.svg" alt="menu"></span>
 
     <nav class="move">
 
         <a name="menuham">
             <ul>
-                <li><a href="index.php" class="active">signature architect</a></li>
+                <li>signature architect/li>
             </ul>
         </a>
 
@@ -77,7 +76,7 @@ require 'logic.php';
                             <select class="uk-select" name="title">
                                 <?php foreach ($jobs AS $key => $value) { ?>
                                     <option value="<?php echo $value; ?>" <?php if ($title = $value) echo 'selected'; ?>>
-                                        <?php echo $value; ?>
+                                        <?php echo $key; ?>
                                     </option>
                                 <?php } ?>
 

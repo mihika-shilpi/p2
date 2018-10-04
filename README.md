@@ -3,13 +3,15 @@
 + Production URL: <http://p2.mihikashilpi.me>
 
 ## Outside resources
-http://form.guide/php-form/php-form-action-self.html
-UI Kit form styling
++ http://form.guide/php-form/php-form-action-self.html
++ UI Kit form styling
++ normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css
++ Code Wrap: https://css-tricks.com/snippets/css/make-pre-text-wrap/
 
 ## 3 Unique inputs
-(1) Text input for Name, 
-(2) Checkbox to indicate whether to include a number 
-(3) Dropdown to indicate Job Title
+1. Text input for Name, 
+2. Checkbox to indicate whether to include a number 
+3. Dropdown to indicate Job Title
 
 ## Class
 `Form.php`
