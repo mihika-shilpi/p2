@@ -10,10 +10,7 @@
 
 ## 3 Unique inputs
 <<<<<<< HEAD
-1. Text input for Name, 
-=======
 1. Text input for Name
->>>>>>> bdb392a52d71e68c24397cb6e5f5eee966863007
 2. Checkbox to indicate whether to include a number 
 3. Dropdown to indicate Job Title
 
