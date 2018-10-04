@@ -9,7 +9,6 @@
 + Code Wrap: https://css-tricks.com/snippets/css/make-pre-text-wrap/
 
 ## 3 Unique inputs
-<<<<<<< HEAD
 1. Text input for Name
 2. Checkbox to indicate whether to include a number 
 3. Dropdown to indicate Job Title
