@@ -10,7 +10,7 @@
 
 ## 3 Unique inputs
 1. Text input for Name
-2. Checkbox to indicate whether to include a number 
+2. Checkbox to indicate whether user works at company
 3. Dropdown to indicate Job Title
 
 ## Class

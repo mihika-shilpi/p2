@@ -52,7 +52,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-423">
+            <state relative-caret-position="-981">
               <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
             </state>
           </provider>
@@ -108,8 +108,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="435" />
+    <option name="x" value="27" />
+    <option name="y" value="129" />
     <option name="width" value="1680" />
     <option name="height" value="934" />
   </component>
@@ -187,7 +187,7 @@
     <option name="totallyTimeSpent" value="20861000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="435" width="1680" height="934" extended-state="0" />
+    <frame x="27" y="129" width="1680" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21184371" />
@@ -282,7 +282,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
+        <state relative-caret-position="-981">
           <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
         </state>
       </provider>
