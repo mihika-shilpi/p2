@@ -26,7 +26,7 @@ require 'logic.php';
 
         <a name="menuham">
             <ul>
-                <li>signature architect/li>
+                <li>signature architect</li>
             </ul>
         </a>
 
@@ -75,8 +75,8 @@ require 'logic.php';
                         <label>Job Title
                             <select class="uk-select" name="title">
                                 <?php foreach ($jobs AS $key => $value) { ?>
-                                    <option value="<?php echo $value; ?>" <?php if ($title = $value) echo 'selected'; ?>>
-                                        <?php echo $key; ?>
+                                    <option value="<?php echo $value; ?>" <?php if (isset($_POST['title']) && $value === $_POST['title']) { echo 'selected'; }?>>
+                                        <?php echo $value; ?>
                                     </option>
                                 <?php } ?>
 

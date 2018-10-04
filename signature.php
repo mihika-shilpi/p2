@@ -11,13 +11,13 @@ require 'Form.php';
 use DWA\Form;
 
 $jobs = [
+    'Please select' => '',
     'Partner' => 'Partner',
     'Interior Designer' => 'Interior Designer',
     'Architect' => 'Architect',
     '3D Designer' => '3D Designer',
     'Project Manager' => 'Project Manager',
     'Accountant' => 'Accountant',
-    'Please select' => '',
 ];
 
 # We'll be storing data in the session, so initiate it
@@ -48,7 +48,7 @@ $_SESSION['results'] = [
     'name' => $name,
     'email' => $email,
     'phone' => $phone ?? null,
-    'title' => $title ?? null,
+    'title' => $title,
     'ifwork' => $ifwork,
 ];
 
