@@ -30,16 +30,16 @@ $name = $form->get('name');
 $email = $form->get('email');
 $phone = $form->get('phone');
 $title = $form->get('title');
-$ifphone = $form->get('ifphone');
+$ifwork = $form->get('ifwork');
 
 # Validate the form data
 $errors = $form->validate([
     'name' => 'required|alpha',
     'email' => 'required|email',
     'phone'=> 'digit|maxLength:12|minLength:10',
-    'title'=> 'required'
+    'title'=> 'required',]
 
-]);
+);
 
 $_SESSION['results'] = [
     'errors' => $errors,
@@ -48,6 +48,7 @@ $_SESSION['results'] = [
     'email' => $email,
     'phone' => $phone ?? null,
     'title' => $title,
+    'ifwork' => $ifwork,
 ];
 
 //header('Location: index.php');
