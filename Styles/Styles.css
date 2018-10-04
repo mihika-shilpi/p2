@@ -550,3 +550,9 @@ label {
   margin-bottom: calc(var(--textpadd)*0.5);
     display: block;
 }
+
+
+.error {
+    color: red;
+    font-weight: 600;
+}

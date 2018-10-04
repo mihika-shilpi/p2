@@ -70,16 +70,19 @@ require 'logic.php';
                         </label>
 
                         <label> Include my Phone Number
-                            <input class="uk-checkbox" type="checkbox" name="ifphone">
+                            <input class="uk-checkbox" type="checkbox" name="ifphone" value="ifphone">
                         </label>
+
+                        <?php if (isset($ifphone)):?>
 
                         <label>Mobile Phone Number (Company)
                             <input class="uk-input" type="tel" name="phone" value='<?= $phone ?? '' ?>'>
                         </label>
+                         <?php endif;?>
 
                         <label>Job Title
                             <select class="uk-select" name="title">
-                                <?php foreach($jobs AS $key => $value) { ?>
+                                <?php foreach ($jobs AS $key => $value) { ?>
                                     <option value="<?php echo $value; ?>" <?php if ($title = $value) echo 'selected'; ?>>
                                         <?php echo $value; ?>
                                     </option>
@@ -100,31 +103,30 @@ require 'logic.php';
 
             <div class="card-light col-span-3-6">
                 <div>
-
-                    <?php if (isset($_POST['Generate']) && $form->hasErrors): ?>
-                        <div class='errors alert alert-danger'>
-                            <ul>
-                                <?php foreach ($errors as $error): ?>
-                                    <li><?= $error ?></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
-                    <?php endif ?>
-
-                    <?php if (isset($_POST['Generate']) && !$form->hasErrors): ?>
-                        <?php include("includes/FormFilledCode.php") ?>
-                    <?php endif ?>
-
-
+                    <?php if (!isset($_POST['Generate'])): ?>
+                    <h1>Signature Code</h1>
+                    <p>Once you have correctly filled out your form, your html signature code will appear here, and you will be able to preview your signature below to check it before you use it.  </p>
                 </div>
+                <?php endif ?>
+
+                <?php if (isset($_POST['Generate']) && $form->hasErrors): ?>
+                    <?php include("includes/Error.php") ?>
+                <?php endif ?>
+
+                <?php if (isset($_POST['Generate']) && !$form->hasErrors): ?>
+                    <?php include("includes/FormFilledCode.php") ?>
+                <?php endif ?>
+
 
             </div>
 
-            <?php
-            if (isset($_POST['Generate'])) {
-                include("includes/FormFilledDisplay.php");
-            }
-            ?>
+        </div>
+
+        <?php
+        if (isset($_POST['Generate'])&& !$form->hasErrors) {
+            include("includes/FormFilledDisplay.php");
+        }
+        ?>
 
     </main>
 
