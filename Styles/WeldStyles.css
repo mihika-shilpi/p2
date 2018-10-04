@@ -487,7 +487,6 @@ footer {
 #content {
   position: relative;
   margin-top: 5rem;
-  margin-bottom: 4rem;
 }
 
 @media only screen and (max-width: 960px) {

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="051c7811-003e-42ef-be47-09f3b9a1103e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/FormFilledCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/FormFilledCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signature.php" beforeDir="false" afterPath="$PROJECT_DIR$/signature.php" afterDir="false" />
-    </list>
+    <list default="true" id="051c7811-003e-42ef-be47-09f3b9a1103e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +12,7 @@
     <session id="4615352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -86,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/FormFilledCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="363" selection-start-line="6" selection-start-column="363" selection-end-line="6" selection-end-column="363" />
+            <state relative-caret-position="120">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding>
                 <element signature="e#518#522#0#HTML" expanded="true" />
                 <element signature="e#564#568#0#HTML" expanded="true" />
@@ -178,9 +173,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-107" />
-    <option name="y" value="47" />
-    <option name="width" value="1746" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
     <option name="height" value="934" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -246,15 +240,15 @@
       <workItem from="1538607651544" duration="1972000" />
       <workItem from="1538609742813" duration="5145000" />
       <workItem from="1538614967639" duration="7275000" />
-      <workItem from="1538622589035" duration="5354000" />
+      <workItem from="1538622589035" duration="5427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19769000" />
+    <option name="totallyTimeSpent" value="19842000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-107" y="47" width="1746" height="934" extended-state="0" />
+    <frame x="131" y="23" width="1746" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20950705" />
@@ -377,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/FormFilledCode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="363" selection-start-line="6" selection-start-column="363" selection-end-line="6" selection-end-column="363" />
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
             <element signature="e#518#522#0#HTML" expanded="true" />
             <element signature="e#564#568#0#HTML" expanded="true" />
